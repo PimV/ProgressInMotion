@@ -1,0 +1,22 @@
+.homeStandard, .homeSelected, .homeHover{
+	background: url(sprites.png) no-repeat;
+}
+
+.homeStandard{
+	background-position: 0 0;
+	width: 200px;
+	height: 50px;
+}
+
+.homeSelected{
+	background-position: 0 -100px ;
+	width: 200px;
+	height: 50px;
+}
+
+.homeHover{
+	background-position: 0 -50px ;
+	width: 200px;
+	height: 50px;
+}
+

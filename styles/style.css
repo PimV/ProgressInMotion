@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* END OF RESET */
+
+body {background-image:url('/ProgressInMotion/images/background/zwartevilt.png');}
+
+#page-container {
+    width: 1000px;
+    margin: auto;
+}
+
+#imgHeader {
+    margin-bottom: 15px;
+}
+
+
+.topNavBar {
+    float: top;    
+    border:  2px ridge #FFF;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#content {
+    display: inline-block;
+    background-color: white;
+    float: left;
+}
+
+ul#navMenu {
+    width: 1000px;
+}
+
+ul#navMenu li a {
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+ul#navMenu li#homeButton a {background: url(/ProgressInMotion/images/nav/topBar/homeSprites.png) 0 -100px no-repeat;}
+ul#navMenu li#homeButton a:hover {background: url('/ProgressInMotion/images/nav/topBar/homeSprites.png') 0 -50px no-repeat;}
+ul#navMenu li#homeButton a:visited {background: url('/ProgressInMotion/images/nav/topBar/homeSprites.png') 0 -100px no-repeat;}
+
+ul#navMenu li#biographyButton a {background: url(/ProgressInMotion/images/nav/topBar/biographySprites.png) 0 -100px no-repeat;}
+ul#navMenu li#biographyButton a:hover {background: url('/ProgressInMotion/images/nav/topBar/biographySprites.png') 0 -50px no-repeat;}
+ul#navMenu li#biographyButton a:visited {background: url('/ProgressInMotion/images/nav/topBar/biographySprites.png') 0 -100px no-repeat;}
+
+ul#navMenu li#portfolioButton a {background: url(/ProgressInMotion/images/nav/topBar/portfolioSprites.png) 0 -100px no-repeat;}
+ul#navMenu li#portfolioButton a:hover {background: url('/ProgressInMotion/images/nav/topBar/portfolioSprites.png') 0 -50px no-repeat;}
+ul#navMenu li#portfolioButton a:visited {background: url('/ProgressInMotion/images/nav/topBar/portfolioSprites.png') 0 -100px no-repeat;}
+
+ul#navMenu li#contactButton a {background: url(/ProgressInMotion/images/nav/topBar/contactSprites.png) 0 -100px no-repeat;}
+ul#navMenu li#contactButton a:hover {background: url('/ProgressInMotion/images/nav/topBar/contactSprites.png') 0 -50px no-repeat;}
+ul#navMenu li#contactButton a:visited {background: url('/ProgressInMotion/images/nav/topBar/contactSprites.png') 0 -100px no-repeat;}
+
+ul#navMenu li#servicesButton a {background: url(/ProgressInMotion/images/nav/topBar/servicesSprites.png) 0 -100px no-repeat;}
+ul#navMenu li#servicesButton a:hover {background: url('/ProgressInMotion/images/nav/topBar/servicesSprites.png') 0 -50px no-repeat;}
+ul#navMenu li#servicesButton a:visited {background: url('/ProgressInMotion/images/nav/topBar/servicesSprites.png') 0 -100px no-repeat;}
+
+
+

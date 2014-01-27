@@ -10,7 +10,7 @@ class MyController {
     }
 
     public function init() {
-        $this->setViewValue('output', '');
+        
     }
 
     public function setViewValue($k, $v, $encoded = false) {
@@ -57,9 +57,11 @@ class MyController {
     }
 
     public function render() {
+        $this->setViewValue('pageTitle', 'Home');
         $actionMethod = ucfirst($this->getRequestParam('action', 'index')) . 'Action';
         $this->$actionMethod();
         $this->setViewValue('base_folder', APPLICATION_FOLDER);
+
 
         //Create 'top' part of site (header)
         $this->renderView('header');
